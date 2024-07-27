@@ -14,6 +14,7 @@ app.use(bodyParser.json());
 app.use(express.json());
 app.use(cors());
 
+
 app.use("/GenerateSummary", GenerateSummary)
 app.use("/promptAnswer", PromptAnswer)
 app.use("/toTranslate", ToTranslate)
